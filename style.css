@@ -1,0 +1,323 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Image placeholder (replace later with real images) */
+.img-placeholder {
+    width: 100%;
+    height: 220px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.lead {
+    font-weight: 600;
+}
+
+/* Gradient background for footer section */
+.gradient-bg {
+    background: linear-gradient(90deg, #0072bc, #00a9e0);
+    border-radius: 0;
+}
+
+.bg {
+    background-color: #92C5FF23;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+
+.bgh5 {
+    background: linear-gradient(90deg, #15CCAF 0%, #0C5DD4 57%, #0C5DD4 100%);
+    color: #fff;
+    /* border-radius: 0px 0px 0px 0px; */
+    padding: 12px 24px;
+    display: block;
+    width: 30%;
+    /* 👈 full width */
+    margin-left: 0;
+    position: relative;
+    left: 0;
+    text-align: center;
+    /* keep text aligned to left */
+}
+
+
+.bgsection {
+    background: linear-gradient(90deg, #15CCAF 0%, #0C5DD4 57%, #0C5DD4 100%);
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+}
+
+
+
+/* ===== YOUR NEXT STEP SECTION ===== */
+.next-step-section {
+    background-color: rgba(146, 197, 255, 0.14);
+    /* subtle bluish-gray like screenshot */
+    color: #000;
+}
+
+.next-step-section .accent-bar {
+    width: 70px;
+    height: 28px;
+    background-color: #2456cc;
+    border-radius: 0 0px 11px 0;
+    /* matches screenshot’s left bar shape */
+}
+
+.next-step-section h5 {
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+}
+
+.next-step-section p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Justify all paragraphs site-wide */
+.p {
+    text-align: justify;
+}
+
+.fw-bold {
+    font-weight: 600 !important;
+}
+
+.fw-bold1 {
+    font-weight: 700 !important;
+}
+
+
+.next-step-section p,
+.bgsection p {
+    text-align: center;
+}
+
+.n {
+    color: #0C5DD4;
+    /* default text color */
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    /* rounded corners */
+    transition: all 0.3s ease;
+    /* smooth hover effect */
+}
+
+.n:hover,
+.n .nav-link.active:hover {
+    background-color: #0C5DD4;
+    /* blue background */
+    color: #fff !important;
+    /* white text */
+    box-shadow: 0 2px 6px rgba(12, 93, 212, 0.3);
+    /* soft glow */
+}
+
+
+
+.img-box {
+    width: 60%;
+    height: 60%;
+    aspect-ratio: 1 / 1;
+    margin: auto;
+    /* 👈 keeps it square */
+    overflow: hidden;
+    border-radius: 12px;
+    /* optional: rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* 👈 ensures the image fills the box */
+    transition: transform 0.4s ease;
+}
+
+/* Optional hover zoom effect */
+.img-box:hover img {
+    transform: scale(1.05);
+}
+
+
+/* Centered footer text (bottom lines) */
+.next-step-section .text-center p {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.pp {
+    text-align: left;
+    position: relative;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .img-placeholder {
+        height: 180px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .bg {
+        background-color: #92C5FF23;
+        border-radius: 10px;
+        margin: 10px 2px;
+        padding: 10px 10px;
+        font-size: 12px;
+        word-wrap: break-word;
+        /* ✅ allows breaking long words */
+        overflow-wrap: break-word;
+        /* ✅ modern equivalent for word wrapping */
+        white-space: normal;
+        /* ✅ ensures text wraps onto multiple lines */
+        line-height: 1.5;
+        /* ✅ better readability */
+        text-align: center;   /* ✅ makes all text justified */
+
+    }
+
+
+    .bgh5 {
+        width: 50%;
+        font-size: 12px;
+        padding: 5px 4px;
+    }
+
+
+    /* ===== YOUR NEXT STEP SECTION ===== */
+    .next-step-section {
+        background-color: rgba(146, 197, 255, 0.14);
+        /* subtle bluish-gray like screenshot */
+        color: #000;
+    }
+
+    .next-step-section .accent-bar {
+        width: 50px;
+        height: 28px;
+        background-color: #2456cc;
+        border-radius: 0 0px 11px 0;
+        /* matches screenshot’s left bar shape */
+    }
+
+    .next-step-section h5 {
+        font-size: 1.2rem;
+        letter-spacing: 0.3px;
+    }
+
+    .next-step-section p {
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+    /* Justify all paragraphs site-wide */
+    .p {
+        text-align: justify;
+    }
+
+    .fw-bold {
+        font-weight: 600 !important;
+    }
+
+    .fw-bold1 {
+        font-weight: 700 !important;
+    }
+
+
+    .next-step-section p,
+    .bgsection p {
+        text-align: center;
+    }
+
+    .n {
+        color: #0C5DD4;
+        /* default text color */
+        font-weight: 500;
+        padding: 8px 16px;
+        border-radius: 8px;
+        /* rounded corners */
+        transition: all 0.3s ease;
+        /* smooth hover effect */
+    }
+
+    .n:hover,
+    .n .nav-link.active:hover {
+        background-color: #0C5DD4;
+        /* blue background */
+        color: #fff !important;
+        /* white text */
+        box-shadow: 0 2px 6px rgba(12, 93, 212, 0.3);
+        /* soft glow */
+    }
+
+
+
+    .img-box {
+    width: 100%;
+    height: 40%;
+    aspect-ratio: 1 / 1;
+    margin: auto;
+    /* 👈 keeps it square */
+    overflow: hidden;
+    border-radius: 8px;
+    /* optional: rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* 👈 ensures the image fills the box */
+        transition: transform 0.4s ease;
+    }
+
+    /* Optional hover zoom effect */
+    .img-box:hover img {
+        transform: scale(1.05);
+    }
+
+
+    /* Centered footer text (bottom lines) */
+    .next-step-section .text-center p {
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+    }
+
+    .pp {
+        text-align: left;
+    }
+
+
+    .next-step-section .accent-bar {
+        width: 50px;
+        height: 28px;
+    }
+
+    .next-step-section h5 {
+        font-size: 1rem;
+    }
+
+    .next-step-section p {
+        font-size: 0.95rem;
+    }
+}
